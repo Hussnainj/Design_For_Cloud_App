@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.wasim.cloudapp.download"
+    tools:showIn="@layout/activity_download">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Cloud Backup"
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageButton18"
+        android:layout_toStartOf="@+id/imageButton18"
+        android:textSize="29sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Download  Data"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:textSize="24sp"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton16"
+        android:layout_gravity="right"
+        android:src="@drawable/pd"
+        android:background="#ffffff"
+        android:layout_above="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton17"
+        android:layout_gravity="right"
+        android:src="@drawable/cd"
+
+        android:layout_alignBottom="@+id/imageButton16"
+        android:layout_centerHorizontal="true"
+        android:background="#fffcfc" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton18"
+        android:layout_gravity="right"
+        android:src="@drawable/md"
+        android:layout_alignTop="@+id/imageButton17"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffff" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton19"
+        android:layout_gravity="right"
+        android:src="@drawable/vd"
+        android:background="#ffffff"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="47dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton20"
+        android:layout_gravity="right"
+        android:src="@drawable/ad"
+        android:layout_alignTop="@+id/imageButton19"
+        android:layout_alignLeft="@+id/imageButton17"
+        android:layout_alignStart="@+id/imageButton17"
+        android:background="#fffefe" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton21"
+        android:layout_gravity="right"
+        android:src="@drawable/pcd"
+        android:layout_alignTop="@+id/imageButton20"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Picture"
+        android:id="@+id/textView5"
+
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Contacts"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/imageButton17"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Message"
+        android:id="@+id/textView7"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/imageButton18"
+        android:layout_alignRight="@+id/imageButton18"
+        android:layout_alignEnd="@+id/imageButton18" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Video"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/imageButton19"
+        android:layout_toLeftOf="@+id/textView11"
+        android:layout_toStartOf="@+id/textView11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Audio"
+        android:id="@+id/textView9"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Call Logs"
+        android:id="@+id/textView10"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_alignLeft="@+id/imageButton21"
+        android:layout_alignStart="@+id/imageButton21" />
+
+
+
+
+</RelativeLayout>
